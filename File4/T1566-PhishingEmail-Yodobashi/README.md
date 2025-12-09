@@ -244,3 +244,37 @@ analysis/IOCs.csv – all indicators extracted from the email
 analysis/SOC-Report.md – narrative SOC report, written like a real case
 
 screenshots/*.png – visual evidence from each step
+
+8. How This Lab Helps a SOC Analyst
+This mini-project demonstrates that you can:
+
+Analyse raw email headers & MIME structure.
+
+Decode and interpret Base64-encoded content.
+
+Extract malicious URLs from HTML.
+
+Use public threat-intel tools to assess domain/URL reputation.
+
+Map findings to MITRE ATT&CK.
+
+Document a clear SOC investigation with IOCs and response actions.
+
+yaml
+Copy code
+
+You can shorten or expand any section, but this structure is perfect for recruiters.
+
+---
+
+## 4. `IOCs.csv` template
+
+In `analysis/IOCs.csv`:
+
+```csv
+type,value,description,confidence
+url,https://fumious.umfqrit.cn/login_index/,Phishing login page,high
+domain,fumious.umfqrit.cn,Malicious subdomain,high
+domain,umfqrit.cn,Suspicious parent domain,medium
+email,info.ihvosjjm@ztwenqo.cn,Phishing sender address,high
+ip,34.84.5.251,Mail sending IP (Google Cloud),medium
