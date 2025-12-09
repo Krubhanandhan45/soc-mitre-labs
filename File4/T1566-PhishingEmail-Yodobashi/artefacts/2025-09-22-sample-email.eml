@@ -1,1 +1,27 @@
+Return-Path: <info.ihvosjjm@ztwenqo.cn>
+Delivered-To: admin@malware-traffic-analysis.net
+Authentication-Results: dkim=none; dmarc=pass (policy=none); spf=pass
+Received: from hfuzuhio.cn (251.5.84.34.bc.googleusercontent.com [34.84.5.251])
+    by mail.malware-traffic-analysis.net with ESMTPS
+Date: Tue, 23 Sep 2025 02:00:14 +0800
+From: =?utf-8?B?44Oo44OJ44OQ44K344O744OJ44OD44OI44O744Kz44Og?= <info.ihvosjjm@ztwenqo.cn>
+To: <admin@malware-traffic-analysis.net>
+Subject: Suspicious Access Detected – Please Confirm
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="=====003_Dragon443441673305_====="
+
+--=====003_Dragon443441673305_=====
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+<<YOUR BASE64 TEXT BLOCK HERE>>
+
+--=====003_Dragon443441673305_=====
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+<<YOUR BASE64 HTML BLOCK HERE>>
+
+--=====003_Dragon443441673305_=====
 
