@@ -1,1 +1,10 @@
+Type,Value,Description
+Sender Email,info.ihvosjjm@ztwenqo.cn,Phishing sender spoofing Yodobashi
+Return-Path,info.ihvosjjm@ztwenqo.cn,Envelope sender used in SMTP header
+From Domain,ztwenqo.cn,Malicious domain used to send phishing email
+Phishing URL,https://fumious.umfqrit.cn/login_index/,Credential harvesting URL
+Phishing Domain,umfqrit.cn,Newly registered suspicious CN domain
+Sender IP,34.84.5.251,Google Cloud-hosted IP used to send malicious email
+Base64 Indicator,Content-Transfer-Encoding: base64,Used to obfuscate email body
+HTML Button Link,/login_index/,Path used in phishing landing page
 
